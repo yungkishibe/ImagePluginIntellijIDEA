@@ -1,0 +1,10 @@
+<idea-plugin>
+    <id>org.example.plugin</id>
+    <name>PluginImageLastVersion</name>
+    <vendor> </vendor>
+    <description> testtesttesttesttesttesttesttesttesttesttest</description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="VideoToolWindow" anchor="right" factoryClass="org.example.plugin.VideoToolWindowFactory"/>
+    </extensions>
+</idea-plugin>
